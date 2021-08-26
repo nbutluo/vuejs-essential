@@ -1,8 +1,7 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <h1>Welcome to Learnku Vue.js.com</h1>
-  </div>
+<template lang="pug">
+  div#app
+    img(src="./assets/logo.png")
+    h1 Welcome from pug & sass
 </template>
 
 <script>
